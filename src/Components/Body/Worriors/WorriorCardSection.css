@@ -1,6 +1,6 @@
 /* worrior section design code  */
 .worriors{
-    /* overflow-x: hidden; */
+    margin-top: -15px;
 }
 .battle-area{
     display: flex;
@@ -34,7 +34,7 @@
 .selceted-item{
     display: flex;
     background-color: transparent;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 .selected-item-btn{
     color:rgba(255, 255, 255, 0.66);
@@ -71,7 +71,7 @@
     grid-template-columns: repeat(4,1fr);
     grid-gap: 10px;
     place-items: center;
-    padding: 20px;
+    padding: 10px;
     background: rgba(227, 233, 255, 0.05);
     border-radius: 0px 0px 12px 12px;
 }
@@ -212,7 +212,7 @@
         grid-gap: 10px;
     }
  }
- @media (max-width:1200px) {
+ @media (max-width:1300px) {
     .warrior-card-section{ 
         grid-template-columns: repeat(2,1fr);
         grid-gap: 10px;
