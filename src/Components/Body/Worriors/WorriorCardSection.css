@@ -1,6 +1,6 @@
 /* worrior section design code  */
 .worriors{
-    margin-left: 0%;
+    /* overflow-x: hidden; */
 }
 .battle-area{
     display: flex;
@@ -76,10 +76,10 @@
     border-radius: 0px 0px 12px 12px;
 }
 
-/* .worrior-card{
+.worrior-card{
     width:273px;
     border-radius: 8px 8px 0px 0px;
-} */
+}
 .worriors h1{
     font-weight: 600;
     font-size: 24px;

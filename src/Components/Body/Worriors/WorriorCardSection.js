@@ -12,6 +12,12 @@ const order = [
     { name: 22 },
     { name: 22 },
     { name: 22 },
+    { name: 22 },
+    { name: 22 },
+    { name: 22 },
+    { name: 22 },
+    { name: 22 },
+    { name: 22 },
     { name: 22 }
 ]
 const WorriorCardSection = () => {

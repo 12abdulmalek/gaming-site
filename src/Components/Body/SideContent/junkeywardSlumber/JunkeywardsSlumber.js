@@ -36,7 +36,7 @@ const JunkeywardsSlumber = () => {
                         </div>
                     </div>
                     <div className='pk'>
-                        <img src={pic1}/> <br/>
+                        {/* <img src={pic1}/> <br/> */}
                         <span className='stand_line' ></span>
                     </div>
                     <div className='slumber'>

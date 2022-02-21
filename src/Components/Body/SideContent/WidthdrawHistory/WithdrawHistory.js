@@ -20,7 +20,7 @@ const WithdrawHistory = () => {
                 </div>
            </div>
            <div className="my_wallet">
-               <a href="#">My Wallet: <span><FiDatabase/> 1,999 </span><span className="buy"> Buy more</span></a>
+               <a href="#">My Wallet: <span><FiDatabase/> 1,999 </span><span className="buy">Buy more</span></a>
            </div>
         </div>
        
