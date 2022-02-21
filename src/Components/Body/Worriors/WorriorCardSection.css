@@ -76,10 +76,10 @@
     border-radius: 0px 0px 12px 12px;
 }
 
-.worrior-card{
+/* .worrior-card{
     width:273px;
     border-radius: 8px 8px 0px 0px;
-}
+} */
 .worriors h1{
     font-weight: 600;
     font-size: 24px;
@@ -205,16 +205,7 @@
  }
 
  /* worriors section responsive design  */
-@media (max-width:768px) {
-    .worriors{
-        margin-left: -8%;
-    }
-}
-@media (max-width:586px) {
-    .worriors{
-        margin-left: -3%;
-    }
-}
+
  @media (max-width:1799px) {
     .warrior-card-section{ 
         grid-template-columns: repeat(3,1fr);

@@ -12,7 +12,7 @@ const WorriorCard = ({item,index,handleOrderCollect}) => {
       
     return (
         <div className='card-section'>
-        <div className='worrior-card'>
+          <div className='worrior-card'>
             <div className='card-img'>
                 <img src={pic} />
                 <div className='card-selected'>
@@ -43,7 +43,7 @@ const WorriorCard = ({item,index,handleOrderCollect}) => {
                     </div>
                 </div>
             </div>
-        </div>
+         </div>
     </div>
 
 
