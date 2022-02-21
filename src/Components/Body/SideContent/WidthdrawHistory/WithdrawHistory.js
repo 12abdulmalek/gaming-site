@@ -8,7 +8,7 @@ const WithdrawHistory = () => {
             <li>Reward</li>
             <li>Vault</li>
         </div>
-        <div className='d-flex justify-content-center align-items-center'>
+     
         <div className="withdraw_history_box">
            <div className="withdraw">
                 <div className="amount">
@@ -23,7 +23,7 @@ const WithdrawHistory = () => {
                <a href="#">My Wallet: <span><FiDatabase/> 1,999 </span><span className="buy"> Buy more</span></a>
            </div>
         </div>
-        </div>
+       
     </div>
   )
 }

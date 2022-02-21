@@ -6,7 +6,7 @@ import './Body.css'
 const Body = () => {
   return (
     <>
-      <div className="container body gaming-warrior">
+      <div className="container bod gaming-warrior">
         <div className="side_content">
           <SideContent/>
         </div>

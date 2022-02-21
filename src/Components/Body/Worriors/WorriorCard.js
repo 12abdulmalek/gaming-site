@@ -32,9 +32,11 @@ const WorriorCard = ({item,index,handleOrderCollect}) => {
                 <div className='duration'>
                     <div className='game-time'>
                         <p>Duration</p>
-                        <span>12 h </span>
-                        <span>12 m </span>
-                        <span>12 s </span>
+                     
+                        <span>12h </span>
+                        <span>12m </span>
+                        <span>12s</span>
+                     
                     </div>
                     <div className='game-logo'>
                         <img src={pic1} />
