@@ -38,9 +38,17 @@
     justify-content: space-around;
 }
 
-.slumber-header h2,p,h3{
+.slumber-header h2,p{
     margin: 2px;
-   
+}
+.downArrow{
+    margin: 0px;
+    font-size: 16px;
+    color: #48C379;
+}
+.slumber-header h3{
+    margin-top: -2px;
+    font-size: 20px;
 }
 .slumber-details{
    
@@ -71,10 +79,10 @@
     height: 250px;
     margin-top: 15px;
     margin-left: 15px;
-    border-left: 0px solid red;
-    border-right: 0px solid red;
-    border-top: 0px solid red;
-    border-bottom: 250px red solid !important; 
+    border-left: 0px solid rgba(255, 255, 255, 0.26);
+    border-right: 0px solid rgba(255, 255, 255, 0.26);
+    border-top: 0px solid rgba(255, 255, 255, 0.26);
+    border-bottom: 250px rgba(255, 255, 255, 0.26) solid !important; 
 }
 .slumber-footer{
     margin-left: 20px;
@@ -84,13 +92,14 @@
 .timing{
     color: #F7614E; 
 }
-
 .progress_line{
+    width: 90%;
     padding: 2px;
+    padding-right: 10%;
     border: 1px solid rgba(255, 255, 255, 0.26);
     border-radius: 2px;
 }
 .progress-bar{
     background: linear-gradient(89.72deg, rgba(91, 134, 255, 0) 0.22%, rgba(213, 21, 254, 0.72) 99.75%) !important;
-    border: 1px solid #000000;
+    border: 1px solid #000000;   
 }

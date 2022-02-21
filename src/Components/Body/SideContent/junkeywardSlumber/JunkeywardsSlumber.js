@@ -6,7 +6,7 @@ import pic1 from '../../../Image/pk.png'
 import { ProgressBar } from 'react-bootstrap';
 const JunkeywardsSlumber = () => {
     return (
-        <div>
+        <div >
             <div className='people-Junkyards'>
                 <h1>Junkyards</h1>
                 <h1>People with Junkyards </h1>
@@ -20,8 +20,8 @@ const JunkeywardsSlumber = () => {
                             </div>
                             <div>
                                 <h2>Slumbers</h2>
-                                <p>9,</p>
-                                <h3><AiFillCaretDown/> 9</h3>
+                                <p>9,995</p>
+                                <h3><AiFillCaretDown className='downArrow'/>9</h3>
                             </div>
                         </div>
                         <div className='slumber-details'>
@@ -46,8 +46,8 @@ const JunkeywardsSlumber = () => {
                             </div>
                             <div>
                                 <h2>Slumbers</h2>
-                                <p>9,445</p>
-                                <h3><AiFillCaretDown/>95</h3>
+                                <p>9,995</p>
+                                <h3><AiFillCaretDown className='downArrow'/>9</h3>
                             </div>
                         </div>
                         <div className='slumber-details'>
@@ -65,7 +65,7 @@ const JunkeywardsSlumber = () => {
                 <div className='slumber-footer'>
                     <p> <span className='timing'>23.00.00</span> ENDS IN: UTC 2022-02-02 19.00.00 </p>
                    <div className='progress_line'>
-                      <ProgressBar now={80} />
+                      <ProgressBar now={100} />
                    </div>
                 </div>
             </div>
