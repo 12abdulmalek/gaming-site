@@ -8,7 +8,7 @@ const Body = () => {
     <>
       <div className="container bod gaming-warrior">
         <div className="side_content">
-          {/* <SideContent/> */}
+          <SideContent/>
         </div>
         <div className="my_warrior">    
             <WorriorCardSection/>
