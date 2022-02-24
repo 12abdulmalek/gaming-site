@@ -1,11 +1,17 @@
 import React, { useEffect, useState } from 'react';
+import './WorriorCardSection.css'
 import { GrMoney } from 'react-icons/gr';
 import { AiOutlineMinusCircle } from 'react-icons/ai';
 import { FiDatabase } from "react-icons/fi";
-import pic from '../../Image/card-img.png'
-import pic1 from '../../Image/Screenshot_3-removebg-preview (2) 2.png'
-import './WorriorCardSection.css'
-const WorriorCard = ({item,index,handleOrderCollect}) => {
+const pic = '../../Image/card-img.png'
+const pic1 = '../../Image/Screenshot_3-removebg-preview (2) 2.png'
+interface WorriorCardInterface {
+    item : {name : number},
+    index : number,
+    handleOrderCollect : (e : React.ChangeEvent<HTMLInputElement>, i : number)=> void
+}
+
+const WorriorCard = (props : WorriorCardInterface) => {
      const [time,setTime] = useState([]);
     const times = new Date();
          
@@ -16,7 +22,7 @@ const WorriorCard = ({item,index,handleOrderCollect}) => {
             <div className='card-img'>
                 <img src={pic} />
                 <div className='card-selected'>
-                    <input type="checkbox"  onChange={(e)=>{handleOrderCollect(e,index)}}    className='checkbox-round' />
+                    <input type="checkbox"  onChange={(e)=>{props.handleOrderCollect(e, props.index)}}    className='checkbox-round' />
                     <h6><span>IN BATTLE</span></h6>
                 </div>
             </div>

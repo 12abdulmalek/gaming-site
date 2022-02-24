@@ -1,6 +1,6 @@
 import React from 'react'
 import { FiDatabase} from "react-icons/fi"
-import Image from '../../../Image/image 7.png'
+const Image = '../../../Image/image 7.png'
 
 const JunkeywardsAndRecords = () => {
   return (

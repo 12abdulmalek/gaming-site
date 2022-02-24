@@ -1,9 +1,10 @@
 import React from 'react';
+import { ProgressBar } from 'react-bootstrap';
 import './junkeywardsSlumber.css'
 import { AiFillCaretDown } from "react-icons/ai";
-import pic from '../../../Image/image 7.png'
-import pic1 from '../../../Image/pk.png'
-import { ProgressBar } from 'react-bootstrap';
+const pic = '../../../Image/image 7.png'
+const pic1 = '../../../Image/pk.png'
+
 const JunkeywardsSlumber = () => {
     return (
         <div >

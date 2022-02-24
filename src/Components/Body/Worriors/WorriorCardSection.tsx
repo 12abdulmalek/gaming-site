@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { ReactHTMLElement, useState } from 'react';
 import './WorriorCardSection.css'
 import { GrMoney } from 'react-icons/gr';
 
@@ -15,8 +15,8 @@ const order = [
     { name: 22 }
 ]
 const WorriorCardSection = () => {
-    const [product, setProduct] = useState([]);
-    const handleOrderCollect = (e, i) => {
+    const [product, setProduct] = useState<number[]>([]);
+    const handleOrderCollect = (e : React.ChangeEvent<HTMLInputElement>, i : number) => {
         console.log(e, i)
         if (e.target.checked) {
             setProduct([...product, i])

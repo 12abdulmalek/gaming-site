@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
-import pic from '../Image/Screenshot_1-removebg-preview (1) 1.png'
+import { WalletDisconnectButton, WalletMultiButton } from '@solana/wallet-adapter-react-ui';
+const pic = '../Image/Screenshot_1-removebg-preview (1) 1.png'
 const Navbars = () => {
   return (
     <div className=' navbars'>
@@ -21,7 +22,7 @@ const Navbars = () => {
             </Nav>
             <Nav>
               <div className="DA_4K">
-                DA...4K
+                <WalletMultiButton />
               </div>
 
             </Nav>
