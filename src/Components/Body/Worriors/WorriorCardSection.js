@@ -49,7 +49,7 @@ const WorriorCardSection = () => {
                     <div className='selceted-item'>
                         <button className='selected-item-btn selected'>All</button>
                         <button className='selected-item-btn'>Slumber</button>
-                        <button className='selected-item-btn'>Prophets</button>
+                        <button className='selected-item-btn'>add game</button>
                     </div>
                     <div className='select-cancel-area'>
                         <div>

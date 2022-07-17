@@ -6,10 +6,18 @@ import pic from '../../Image/card-img.png'
 import pic1 from '../../Image/Screenshot_3-removebg-preview (2) 2.png'
 import './WorriorCardSection.css'
 const WorriorCard = ({item,index,handleOrderCollect}) => {
-     const [time,setTime] = useState([]);
+     const [sec,setSec] = useState(0);
+     const [min,setMin] = useState('');
+     const [hour,setHour] = useState('');
     const times = new Date();
-         
-      
+         useEffect(()=>{
+            setTimeout(() => {
+                const se = times.getSeconds();
+                setSec(se);
+                setMin(times.getMinutes());
+                setHour(times.getHours());
+            }, 1000);
+         },[sec])
     return (
         <div className='card-section'>
           <div className='worrior-card'>
@@ -33,9 +41,9 @@ const WorriorCard = ({item,index,handleOrderCollect}) => {
                     <div className='game-time'>
                         <p>Duration</p>
                      
-                        <span>12h </span>
-                        <span>12m </span>
-                        <span>12s</span>
+                        <span>{hour}h </span>
+                        <span>{min}m </span>
+                        <span>{sec}s</span>
                      
                     </div>
                     <div className='game-logo'>
